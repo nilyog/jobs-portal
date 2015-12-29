@@ -1,0 +1,978 @@
+@import url(http://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700);
+
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Karla'), local('Karla-Regular'), url(http://fonts.gstatic.com/s/karla/v5/9FE9d2vp2L64p0vZsAYfyw.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Karla'), local('Karla-Regular'), url(http://fonts.gstatic.com/s/karla/v5/S1bXQ0LrY7AzefpgNae9sYDGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Karla'), local('Karla-Regular'), url(http://fonts.gstatic.com/s/karla/v5/JaMH4jmmzP070-OYo03anYDGDUGfDkXyfkzVDelzfFk.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* fallback */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Karla Bold'), local('Karla-Bold'), url(http://fonts.gstatic.com/s/karla/v5/ZiKpCsn2sm9V31t9-N03F-vvDin1pK8aKteLpeZ5c0A.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Karla Bold'), local('Karla-Bold'), url(http://fonts.gstatic.com/s/karla/v5/r3NqIkFHFaF3esZDc3WT5BkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Karla Bold'), local('Karla-Bold'), url(http://fonts.gstatic.com/s/karla/v5/suoMYBGv5sGCUIrF9mVTfRkAz4rYn47Zy2rvigWQf6w.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* fallback */
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Karla Italic'), local('Karla-Italic'), url(http://fonts.gstatic.com/s/karla/v5/2qIVdb4GpoNrxsRfae6Re6CWcynf_cDxXwCLxiixG1c.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Karla Italic'), local('Karla-Italic'), url(http://fonts.gstatic.com/s/karla/v5/Yg0CFFzQl6neLL91sh2HhVKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Karla Italic'), local('Karla-Italic'), url(http://fonts.gstatic.com/s/karla/v5/R6TLj8szihtlPLDG5EMFBFKPGs1ZzpMvnHX-7fPOuAc.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* fallback */
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Karla Bold Italic'), local('Karla-BoldItalic'), url(http://fonts.gstatic.com/s/karla/v5/vW1mBZ71ILBJXN2DHjUTqHYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Karla Bold Italic'), local('Karla-BoldItalic'), url(http://fonts.gstatic.com/s/karla/v5/O00booBYqRdhwyoNbnAf1gsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Karla Bold Italic'), local('Karla-BoldItalic'), url(http://fonts.gstatic.com/s/karla/v5/VZ08RdiotRdV1D0ewK-mxAsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+
+body{
+	font-family: 'Karla' !important;
+
+}
+h1,h2,h3,h4,h5{
+
+}
+
+h1{
+	font-size: 48px !important;
+	line-height: 51px;
+}
+/* ----------------- nav bar CSS -------------*/
+
+.navbar-default{
+	background-color: #FF6532;
+	color:#fff;
+	border-color: #FF6532;
+	border-bottom: transparent !important;
+	border-radius: 0;
+}
+.navbar-brand{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	padding-right: 14px;
+}
+.logo {
+	margin-top: -5px;
+	padding-bottom: 5px;
+	background-color: #fff;
+	margin-left: -6px !important;
+}
+
+.navbar-default .navbar-nav > li > a{
+	color: #fff;
+	font-family: 'Karla';
+	font-size: 12pt;
+}
+.navbar-default .navbar-nav > li{
+ 	margin-left: 20px !important;
+}
+
+.navbar-default .btnsearch{
+	border-radius: 0;
+	color: transparent;
+	border-color: transparent;
+	
+	color: #FF6532;
+}
+.navbar-default .btnsearch:hover{
+	background-color: #fff !important;
+}
+
+.navbar-default .searchtxt{
+	border-radius: 0;
+	border: 0px;
+}
+
+/* ----------------- nav bar end -------------*/
+
+.orange{
+	color: #FF6532;
+}
+.blue{
+	color: #3B4350;
+}
+.pd0{
+	padding:0px;
+}
+.ml-2{
+	margin-left: -2px;
+}
+.ml2{
+	margin-left: 2px;
+}
+.ml-10{
+	margin-left: -10px !important;
+}
+.ml10{
+	margin-left: 10px !important;
+}
+.ml20{
+	margin-left: 20px !important;	
+}
+.mr-10{
+	margin-right: -10px !important;
+}
+.mt10{
+	margin-top: 10px;
+}
+img{
+	width: auto;
+}
+/* ----------------- Section1 css  -------------*/
+
+.section1 .leftbox{
+	background-color: #E3E2E0;
+	padding-left: 18px;
+	padding-top: 25px;
+	padding-bottom: 17px;
+	padding-right: 18px;
+	margin-left: -10px !important;
+
+}
+.section1 .leftbox h1{
+	font-family: 'Rajdhani','Regular';
+	font-weight: 400 !important;
+	margin-bottom: 40px;
+}
+.section1 .righslider{
+	background-color: #E3E2E0;
+	margin-left: 10px !important;
+	padding: 0px;
+	background-image: url('../images/slider1.png');
+}
+.section1 .righslider .sliderheader{
+	margin-top: 5%;
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+
+.section1 .righslider .sliderheader h4{
+  font-weight: 400;
+  font-family: 'Karla','Regular';
+  font-size: 18px;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+}
+
+.section1 .righslider .sliderheader h1{
+  font-weight: 400;
+  font-family: 'Karla','Bold';
+  font-size: 48px;
+  text-align: center;
+  line-height: 48px;
+  color: #fff;
+  margin: 0px;
+}
+.section1 .righslider .sliderbottom{
+	margin-top: 18%;	
+	margin-left: auto ;
+  	margin-right: auto ;
+}
+.section1 .righslider .sliderbottom h4 {
+  font-weight: 400;
+  font-family: 'Karla','Regular';
+  font-size: 18px;
+  text-align: center;
+  line-height: 36px;
+  color: #FF6532;
+  
+}
+.section1 .subheading{
+	font-family: 'Karla','Regular';
+	font-weight: 400 !important;
+	font-size: 14px;
+	line-height: 26px;
+	color: #FF6532;
+}
+
+/* ----------------- Section2 css  -------------*/
+.section2{
+	margin-top: 10px;
+}
+.section2 .bluebg{
+	background-color: #81D1D7;
+	color: #000;
+	padding-left: 15px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	width: 25%;
+	height: 188px
+}
+
+.section2 .orangebg{
+	background-color: #FF6532;
+	color: #fff;
+	padding-left: 15px;
+	padding-right: 25px;
+	padding-bottom: 25px;
+	padding-top: 20px;
+	width: 24%;	
+	height: 188px
+}
+
+.section2 .orangebg .title , .section2 .bluebg .title{
+	font-size: 36px;
+	font-family: 'Rajdhani','Light';	
+	line-height: 43px;
+} 
+
+.section2 .orangebg .footer, .section2 .bluebg .footer{
+	border-top:2px solid #fff;
+	position: absolute;
+	top: 80%;
+}
+
+.section2 .orangebg .footertxt, .section2 .bluebg .footertxt{
+	font-family: 'Karla','Regular';
+	font-weight: 400 !important;
+	font-size: 14px;
+	line-height: 24px;
+	padding-top: 5px;
+
+}
+
+/* ----------------- Section3 css  -------------*/
+
+.section3{
+	margin-top: 10px;
+}
+
+.section3 .box{
+	background-color: #2E67B1;
+	width: 16%;
+	padding: 0px;
+}
+
+.section3 .box .title{
+	padding-left: 10px;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	height: 40px;
+}
+.section3 .box .title h4{
+	font-family: 'Karla','Regular';
+	font-weight: 400 !important;
+	font-size: 14px;
+	line-height: 16px;
+	color: #fff;
+	margin:0px !important;
+}
+
+
+.section3 .backimg img{
+	max-width: 184px !important;
+}
+/* ----------------- Section4 css  -------------*/
+
+.section4{
+	margin-top: 10px;
+}
+
+.section4 .starbg{
+	background: url('../images/star.png') no-repeat center center ;
+	text-align: center;
+}
+
+
+.section4 .starrow{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+}
+.section4 .starrow h4{
+
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+  /* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+
+
+.section4 .vertical-text {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+}
+.section4 .text{
+	margin: 11px 11px;
+	display: block;
+}
+/* ----------------- Section5 css  -------------*/
+
+.section5{
+	margin-top: 10px;
+}
+
+.section5 .box{
+
+    background: -webkit-linear-gradient(90deg, #ff8b45, #ff5d2e); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg, #ff8b45, #ff5d2e); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #ff8b45, #ff5d2e); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg, #ff8b45, #ff5d2e); /* Standard syntax (must be last) */
+	  
+	 padding: 25px 30px;
+	 height: 290px;
+}
+
+.section5 .box h4{
+	font-family: 'Rajdhani','Regular';	
+	font-weight: 400 !important;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000;
+	margin:0px !important;
+}
+.section5 .box h3{
+	margin-top: 25px !important;
+	font-family: 'Karla','Bold';	
+	font-weight: 400 !important;
+	font-size: 24px;
+	line-height: 29px;
+	color: #fff;	
+}
+
+.section5  .photo{
+	margin-top: 60px !important;
+	display: block;
+}
+.section5 .img-title{ 
+	font-family: 'Karla','Regular';
+	font-weight: 400 !important;
+	font-size: 12px;
+	line-height: 14px;
+	color: #FF6532;
+	margin:0px !important;
+	display: block;
+} 
+
+.section5 .title-black{
+	font-family: 'Karla','Regular';
+	font-weight: 400 !important;
+	font-size: 12px;
+	line-height: 14px;
+	color: #000;
+	margin:0px !important;	
+	display: block;
+}
+
+/* ----------------- Section6 css  -------------*/
+
+.section6{
+	margin-top: 10%;
+}
+
+.section6 .bgimg{
+	background: url('../images/calender.png')no-repeat center ;
+}
+.section6 .rowtext{
+	margin-top: 20px;
+	height: 240px;
+	margin-left: -10px;
+	background: url('../images/calender-1.png')no-repeat center ;
+	background-size: 100%;
+}
+
+.section6 .rowtext h3{
+	font-family: 'Rajdhani','Regular';	
+	font-weight: 400 !important;
+	font-size: 36px;
+	line-height: 33px;
+	color: #fff;
+	padding-top: 50px;
+	padding-left: 300px;
+}
+.section6 .rowtext h4{
+	margin-top: 25px !important;
+	font-family: 'Karla','Bold';	
+	font-weight: 400 !important;
+	font-size: 18px;
+	line-height: 48px;
+	color: #505050;	
+	padding-left: 375px; 
+}
+.social-media-sections{
+	background-color: #3B4350;
+	min-height: 50px;
+}
+
+
+/* ----------------- Section7 css  -------------*/
+
+.section7{
+	margin-top: 10px;
+}
+
+.section7 .box{
+		background: url('../images/twitter.png')no-repeat center ;
+}
+
+.section7 .social-media-sections{
+	background-color: #3B4350;
+	max-width: 24.5%;
+	
+}
+
+.section7 .social-media-sections>img{
+	float:left;
+	padding: 15px 10px;
+	
+}
+
+.section7 .social-media-sections .text{
+	margin-top: 20px !important;
+	font-family: 'Karla','Regular';	
+	font-weight: 400 !important;
+	font-size: 11px;
+	line-height: 18px;
+	color: #DCDCDC;	
+	display: inline-block;
+	
+}
+
+/* ----------------- Section8 css  -------------*/
+
+.section8{
+	margin-top: 10px;
+}
+.section8 ul{
+	list-style-type: none;
+	margin-left: -10px;
+	padding-left: 0px !important;
+	
+} 
+.section8 ul li{
+	list-style-type: none;
+}
+
+
+.section8 ul li:nth-child(odd) {
+	background-color: #FF6532;
+	color: #fff;
+	
+}
+
+.section8 ul li:nth-child(even) {
+	background-color: #F13C0B;
+	color: #fff;
+	
+}
+
+.section8 .left-box { 
+	padding: 15px;
+	font-family: 'Karla','Bold';	
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;	
+}
+
+.section8 .right-box {
+	padding: 15px;	
+	font-family: 'Karla','Regular';	
+	font-weight: 400 !important;
+	font-size: 12px;
+	line-height: 18px;
+	text-transform:capitalize; 
+}
+
+/* ----------------- Section9 css  -------------*/
+
+.section9{
+	margin-top: 10px;
+	margin-left: -10px;
+	background-color: #E3E2E0;
+}
+
+.section9 .{
+	margin-left: -10px;
+}
+
+.section9 .box1{
+	padding: 0px;
+}
+
+.section9 .box1 img{
+	padding-right: 15px;
+}
+
+.section9 .footer-text{
+	padding-top: 15px;	
+	font-family: 'Karla','Regular';	
+	font-weight: 400 !important;
+	font-size: 14px;
+	line-height: 16px;
+	color: #3B4350;	
+	display: block;
+}
+
+footer{
+	margin-bottom: 10px;
+}
+
+/* ----------------- Practices Page css  -------------*/
+
+.breadcrumb{
+	background-color: #3B4350 !important;
+	font-family: 'Karla','Regular';	
+	font-weight: 400 !important;
+	font-size: 14px;
+	color: #E3E2E0 !important;
+	border-radius:0; 
+}
+.practices .brdcrmbs{
+	margin-left: -14px;
+}
+.practices .breadcrumb a:active , a:hover , a:focus , a{ 
+	color: #E3E2E0 !important;
+}
+ ol{
+	margin: 0 !important;
+}
+
+
+.practices .breadcrumb>li+li:before{
+	  content: "> " !important;
+    padding: 0 5px;
+}
+
+.practices .title h1{
+	font-family: 'Rajdhani','Regular';	
+	font-weight: 400 !important;
+	font-size: 40px !important;
+	line-height: 48px;
+	color: #3B4350;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 25px;
+}
+
+.practices .box {
+	background-color: #2E67B1;
+	margin-left: -13px !important; 
+	margin-bottom: 10px;
+
+}
+.practices .box h1{
+	font-family: 'Rajdhani','Semibold';		
+	font-size: 36px !important;
+	line-height: 43px;
+	color: #fff;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+.practices .box h4{
+	font-family: 'Karla','Regular';	
+	font-size: 13px !important;
+	line-height: 18px;
+	color: #fff;
+	margin: 0px;
+}
+
+.practices .box .col-md-8 {
+	padding-left: 20px;
+	margin-top: 50px;
+}
+
+.practices-2 .box{
+	margin-bottom: 0px !important;
+}
+ .bluebar .box {
+	font-family: 'Karla','Regular';	
+	color: #3B4350;
+	background-color:#AAE0E7;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	display: inline-block;
+	max-width: 24.9%;
+	font-size: 24px;
+	/* line-height:48px; */
+	margin-top: 2px;
+	text-align: center;
+}
+.bluebar{
+	margin-left: -11px;
+}
+.bluebar .box:hover {
+	background-color: #81D1D7;
+}
+
+.practices-2 .blank60{
+	max-height:60px; 
+	display: block;
+}
+.practices-2 .clients{
+	margin-left: -18px;
+
+}
+.practices-2 .clients .col-md-3 {
+	
+	display: block;
+	height: 169px;
+	border: 2px solid #AAE0E7;
+	text-align: center;
+}
+.practices-2 .middlebanner{
+	background: url('../images/middle-banner.png') no-repeat  center center;	
+	position: relative;
+	margin-left: -14px;
+}
+.practices-2 .middlebanner h1{
+	margin-top: 8% !important;
+	text-align: center;
+	font-family: 'Karla','Regular';	
+	font-size: 24px !important;
+	list-style: 48px;
+	color: #2E67B1;
+
+}
+
+.practices-2 .content-box{
+	background-color: #AAE0E7;
+	padding:25px 15px;
+	margin-left: -14px;
+	margin-bottom: 10px;
+}
+
+.practices-2 .content-box .left .name , .add{
+	color: #2E67B1 !important;
+}
+
+.practices-2 .content-box .left .add , .practices-2 .content-box .left .name , .right{
+	color: #fff;
+	font-family: 'Karla','Regular';	
+	font-size: 18px;
+	line-height: 24px;
+	padding-top: 14px;
+	
+}
+.practices-2 .content-box .left .name {
+	border-bottom: 2px solid #fff ;
+	padding-bottom: 10px;
+}
+
+.practices-2 .content-box .right{
+	padding-top: 5px;
+	padding-left: 20px;
+	color: #3B4350;
+	font-family: 'Karla','Regular';	
+	font-size: 18px;
+	line-height: 24px;
+	
+}
+.contact-btn{
+	color: #2E67B1;
+	font-family: 'Karla','Bold';	
+	font-size: 24px;
+	line-height: 48px;
+	padding: 15px;
+	text-align: center;
+	border:15px solid #AAE0E7;
+
+}
+
+.midbtn{
+	margin-top: 60px;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+/* ----------------- overview Page css  -------------*/
+.overview .overview-list{
+	margin-top: 10px;
+}
+.overview .overview-list .first{
+	font-family: 'Karla','Bold';		
+	font-size: 24px;
+	line-height: 32px;
+	color: #000000;
+	padding: 10px 10px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+	width: 24.6%;
+	height: 140px;
+	
+}
+.overview .overview-list .first .title : after{
+	
+}
+
+.overview .overview-list .orange-box{
+	font-family: 'Rajdhani','Bold';		
+	font-size: 24px;
+	line-height: 28px;
+	color: #fff;
+	padding: 10px 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	background-color: #FF6532;
+	width: 24.4%;
+	height: 140px;
+}
+
+.overview .overview-list .title{
+	padding-bottom: 10px;
+border-bottom: 2px solid #FF6532;
+}
+ 
+
+ .overview .contnt{
+ 	background-color: #81D1D7;
+	padding: 30px;
+ }
+
+ .overview .contnt h3{
+		font-family: 'Rajdhani','Bold';		
+	font-size: 24px;
+	line-height: 32px;
+	color: #000000;
+	padding-left: 30px;
+	margin: 0px;
+	
+ }
+.overview .contnt ul {
+	padding-left: 30px;
+}
+ .overview .contnt ul li{
+	font-family: 'Karla','Regular';		
+	font-weight: 400px !important;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000000;
+	padding-top: 10px ;
+	list-style-type: none;
+	
+ }
+
+ .overview .contnt ul li:Before
+{
+content: "- ";
+}
+
+
+
+.people .description {
+	margin-top: 50px;
+	margin-left: -18px;
+}
+
+.people .description .logos{
+	margin-top: -18%;
+	display: block;
+	padding: 20px;
+	border-top: 2px solid #FFF;
+	position: relative;
+	margin-right: -13px;
+}
+
+.people .description .img>img{
+	height: 388px;
+}
+
+.people .description .img .fb{
+	position: relative;
+	padding-left: 38%
+}
+
+.people .description .img .link{
+	float: right;
+position: relative;
+
+}
+
+.people .content{
+	padding-left: 20px;
+}
+.people .content .title{
+	font-family: 'Karla','Regular';		
+	font-weight: 400px !important;
+	font-size: 36px !important; 
+	line-height: 24px;
+	color: #000000;
+	padding-bottom: 40px ;
+	display: block;
+	
+}
+
+.people .content p{
+	font-family: 'Karla','Regular';		
+	font-weight: 400px !important;
+	font-size: 24px !important; 
+	line-height: 24px;
+	color: #000000;
+}
+
+.people .content ul{
+	padding: 0px;
+}
+.people .content ul li {
+	font-family: 'Karla','Regular';		
+	font-weight: 400px !important;
+	font-size: 24px !important; 
+	color: #fff;
+	list-style-type: none;
+}
+.people .content ul li span {
+	background-color: #FF6532;
+	color: #fff;
+	list-style-type: none;
+	margin: 3px;
+	line-height: 34px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+/********niranjan********/
+.strip-mid{
+	padding-top: 50px;
+}
+.strip-list{
+	list-style: none;
+	padding: 10px 0;
+	color: #fff;
+}
+.strip-list li:before{
+	content: '- ';
+	color: #fff;
+}
+.orange-title{
+	background: #ff6532;
+	padding: 5px 20px;
+	color: #fff;
+	font-size: 28px;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+}
+.detailinfo{
+	background: url(../images/line-bg.png);
+	margin-right: 0px;
+}
+.detailinfo .question{
+	color: #ff6532;
+	font-size: 24px;
+	margin-top: 30px;
+}
+.points-covered{
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: 2px solid #ff6532;
+}
+.points-covered .whitebg{
+	font-weight: bold;
+	font-size: 14px;
+	background: #fff;
+	padding: 20px;
+}
+.points-covered .intro{
+	margin-left: 9%;
+}
+.points-covered .single-point {
+	display: table;
+	margin: 15px 0px;
+}
+.points-covered .single-point .point-number{
+	display: table-cell;
+	width: 9%;
+	text-align: center;
+}
+.points-covered .single-point .point-number span{
+	display: block;
+	background: #ff6532;
+	background: -webkit-linear-gradient(left, #ff6532 , #f13c0b); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #ff6532, #f13c0b); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #ff6532, #f13c0b); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #ff6532 , #f13c0b); /* Standard syntax */
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	padding-top: 6px;
+}
+.points-covered .point-title{
+	color: #ff6532;
+	font-size: 24px;
+}
+.points-covered .single-point .pointbox{
+	display: table-cell;
+	width: 89%;
+}

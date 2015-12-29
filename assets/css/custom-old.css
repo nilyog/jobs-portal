@@ -1,0 +1,157 @@
+body {
+    font-family:'OpenSans', sans-serif;
+    color: #000;
+    font-size:14px;
+    background-color: #D2D2D2;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    background: #000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 16px;
+    color: #fff !important;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 5px;
+    margin-left: 2px;
+}
+
+.navbar-default .navbar-nav>li:after {
+content: '|';
+  padding-left: 15px;
+  position: absolute;
+  top: 0;
+  color: #fff;
+  right: 0;
+  top: 15px;
+}
+
+.navbar-default .navbar-nav>li:before {
+   content: ' ';
+  padding-left: 5px;
+  position: absolute;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #fff !important;
+  background: #ab1f0f;
+}
+
+.navbar-default .navbar-nav>li>a:hover:after {
+    color: #fff !important;
+}
+
+.navbar-default .navbar-nav>li:last-child:after {
+    content: ' ';
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.home img {
+    max-width: 100%;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ab1f0f;
+}
+
+.navbar-header {
+    background: #000;
+}
+
+.navbar-default .navbar-toggle {
+    background: #fff;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background: #000;
+}
+/* --------------------- Home ------------------------*/
+
+img.logo {
+    position: relative;
+    z-index: 99999;
+}
+
+a:hover,
+a:visited,
+a:focus {
+    text-decoration: none;
+}
+
+/*----------- Check box select style -----------*/
+.select  input[type=radio].css-checkbox, input[type=radio].css-checkbox {
+    position: absolute;
+    z-index: -1000;
+    left: -1000px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+}
+
+.select  input[type=radio].css-checkbox + label.css-label {
+    padding-left: 25px;
+    height: 21px;
+    display: inline-block;
+    line-height: 16px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    font-size: 14px;
+    vertical-align: middle;
+    cursor: pointer;
+    font-weight: 100;
+    padding-top: 0px;
+}
+
+.select  input[type=radio].css-checkbox:checked + label.css-label {
+    background-image: url('../images/radio-select.png');
+}
+
+
+.select  label.css-label ,.select  label.css-label{
+    background-image: url('../images/radio-unselect.png');
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+select[name="user-list_length"]{
+  display: inline-block;
+  width: auto;
+}
+input[type="search"]{
+  border: 0;
+  border: 1px solid #000  ;
+  border-radius: 3px;
+  background-color: transparent;
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  padding-left: 0;
+  display:inline-block;
+}
+
+@media screen and (max-width: 768px) {
+   
+}
+
+@media screen and (max-width: 480px) {
+   
+}
