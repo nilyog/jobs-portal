@@ -25,7 +25,9 @@
 
 nav{
 	background-color: #90caf9;
+  padding: 0 15px;
 }
+
 a:hover,a:visited,a:active,a:focus{
   text-decoration: none;
 }
@@ -57,6 +59,20 @@ input[type=text].invalid+label:after, input[type=text]:focus.invalid+label:after
 .text-center{
   text-align: center;
 }
+.modal.login{
+  width: 35%;
+  height: 55%;
+}
+.modal .modal-footer{
+    padding: 0 24px;
+}
+.modal .modal-content{
+  padding-bottom: 0;
+}
+.forgotpwd a{
+      font-size: 13px;
+    color: #000;
+}
 /*.dropdown-content{
   background-color: #fff;
   display: block;
@@ -85,7 +101,7 @@ input[type=text].invalid+label:after, input[type=text]:focus.invalid+label:after
 .home .searcharea .searchBar{
   width: 70%;
   margin-left: 15%;
-      margin-top: 10%;
+      margin-top: 10%
 }
 .home .searcharea .searchBar .serbtn{
   padding-top: 13px;
