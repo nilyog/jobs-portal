@@ -15,6 +15,9 @@ class cms_user extends CI_controller
 	public function companies(){
 		$this->load->view('companies');    
 	}
+	public function new_registration(){
+		$this->load->view('new_registration');    
+	}
 
 	public function candidate_profile(){
 		//$data['galleries'] = $this->gallery_model->get_all();
