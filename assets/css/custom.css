@@ -21,8 +21,6 @@
   -webkit-font-smoothing: antialiased;
 }
 
-
-
 nav{
 	background-color: #90caf9;
   padding: 0 15px;
@@ -218,6 +216,15 @@ input[type=text].invalid+label:after, input[type=text]:focus.invalid+label:after
   font-size: 12px;
     font-weight: normal;
 }
+
+/* new registration page */
+.s9.new_reg{
+  margin-left: 15% !important;
+}
+.s9.new_reg .card{
+      padding: 10px 25px;
+}
+
 
 @media only screen and (min-width: 993px)
 .container {
