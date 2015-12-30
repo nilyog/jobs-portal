@@ -26,7 +26,7 @@
        <div class="navbar-fixed">  
         <nav>
           <div class="nav-wrapper">
-            <a href="<?php echo base_url(); ?>" class="brand-logo"> Jobs Recruters </a>
+            <a href="<?php echo base_url(); ?>" class="brand-logo"> Jobs Recruiters </a>
             <ul class="right hide-on-med-and-down">
               <li><a href="<?php echo base_url(); ?>jobs">Jobs</a></li>
               <li><a href="<?php echo base_url(); ?>recruiters">Recruiters</a></li>
