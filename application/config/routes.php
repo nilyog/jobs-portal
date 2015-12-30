@@ -57,6 +57,7 @@ $route['translate_uri_dashes'] = FALSE;
 $route['jobs']='cms_user/jobs';
 $route['recruiters']='cms_user/recruiters';
 $route['companies']='cms_user/companies';
+$route['new_registration']='cms_user/new_registration';
 
 $route['add_new_user']= 'Welcome/add_new_user';
 $route['add_new_media']='cms_admin/add_new_media';
